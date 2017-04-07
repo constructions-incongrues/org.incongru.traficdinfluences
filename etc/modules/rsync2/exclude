@@ -8,4 +8,8 @@
 /composer.*
 /etc
 /vendor/constructions-incongrues/ananas-build-toolkit
-/src/web/wp-content/uploads
+/wp-content/uploads
+/.vagrant
+/.idea
+/wp-config.php
+/wp-content/cache

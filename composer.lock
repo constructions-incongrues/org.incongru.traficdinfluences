@@ -4,16 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f8a5a943e5617ed256bc5154ac96309",
+    "content-hash": "9fd478ebe699e0f445d0154aaa5024b7",
     "packages": [],
     "packages-dev": [
         {
             "name": "constructions-incongrues/ananas-build-toolkit",
-            "version": "0.34.5",
+            "version": "0.35.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:constructions-incongrues/ananas-build-toolkit.git",
-                "reference": "b2115f4441ed97c7be4290757fb6c67b91a61684"
+                "reference": "d702e4eb240380edb1d5a278a3dcdc55a875fbfe"
             },
             "require": {
                 "php": ">=5.5.0"
@@ -31,7 +31,7 @@
                 "issues": "https://github.com/constructions-incongrues/ananas-build-toolkit/issues",
                 "source": "https://github.com/constructions-incongrues/ananas-build-toolkit"
             },
-            "time": "2016-10-06T11:31:11+00:00"
+            "time": "2017-04-07T13:17:06+00:00"
         }
     ],
     "aliases": [],

@@ -13,7 +13,7 @@
         }
     ],
     "require-dev": {
-        "constructions-incongrues/ananas-build-toolkit": "^0.34.5"
+        "constructions-incongrues/ananas-build-toolkit": "^0.35.0"
     },
     "scripts": {
         "post-install-cmd": "ant -f vendor/constructions-incongrues/ananas-build-toolkit/modules/toolkit/module.xml init -Dbasedir=$PWD",
