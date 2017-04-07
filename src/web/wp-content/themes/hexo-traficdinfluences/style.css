@@ -1,0 +1,49 @@
+/*
+Theme Name:   Trafic d'Influences
+Theme URI:    http://traficdinfluences.incongru.org
+Description:  Theme for Trafic d'Influences radio show website
+Author:       Constructions Incongrues
+Author URI:   http://www.construction-incongrues.net
+Template:     hexo
+Version:      1.0.0
+License:      GNU General Public License v3 or later
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, custom-background, custom-header, featured-images, full-width-template, footer-widgets, blog, threaded-comments, translation-ready, editor-style
+Text Domain:  hexo-traficdinfluences
+*/
+
+/* On n'affiche pas le footer "Powered by..." */
+.site-info {
+    display: none;
+}
+
+/* Apparence du bandeau de titre */
+.site-title {
+    background-color: yellow;
+    padding: 0.6em;
+}
+
+/* Hover qui disparaissent */
+.site-title a:hover, .posted-on a:hover {
+    color:yellow;
+}
+.entry-title a:hover {
+    color:white;
+}
+
+/* Suppression de la lettrine présente de base dans le thème */
+.single .entry-content p:first-child:first-letter {
+    font-size: 100%;
+    padding:0;
+    float: none;
+    font-family: 'Merriweather', serif;
+}
+
+/* Remaniement du bandeau de métadonnées et action du player audio */
+.podcast_meta, .podcast_meta a {
+    color: #aaa;
+    margin-bottom: 1em;
+}
+.podcast_meta a:hover {
+    color: #000;
+}

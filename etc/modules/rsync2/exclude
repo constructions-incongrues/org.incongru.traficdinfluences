@@ -1,0 +1,11 @@
+*-dist
+*.swp
+*.swo
+*.bak
+*.orig
+*~
+.git
+/composer.*
+/etc
+/vendor/constructions-incongrues/ananas-build-toolkit
+/src/web/wp-content/uploads

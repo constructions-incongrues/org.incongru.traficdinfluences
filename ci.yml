@@ -1,0 +1,4 @@
+---
+name: traficdinfluences
+profile: vagrant
+type: php5_mysql
