@@ -1,5 +1,14 @@
 # net.constructions-incongrues.skel
 
+## Utilisation
+
+### Import d'une nouvelle émission
+
+Le fichier de l'émission doit être nommé ainsi : `traficdinfluences_<numéro de l'épisode sur trois chiffres>_<YYYYMMDD>.mp3`
+
+```bash
+```
+
 ## Développement
 
 ### Installation locale
@@ -65,8 +74,16 @@ ant deploy -Dprofile=pastishosting -Drsync.options=
 - [] [helpers] Mise au carré de wordpress_import_podcasts.sh
 - [] [helpers] wordpress_import_podcasts.sh comme package wp-cli ?
 - [] [helpers] wordpress_import_podcasts.sh comme extension wordpress ?
-- [] [gfx] favicon (carré jaune)
+- [] [helpers] refacto wordpress_import_podcasts.sh pour pouvoir tagger et importer vers un post de podcast existant
 - [] [abt] module wordpress (ant wordpress.pull)
+- [] [wordpress] activer le publication automatique sur Facebook
+- [] [wordpress] reporter les textes des annonces Facebook s'il y a lieu
+- [] [wordpress] reporter les playlists si elles existent
+- [] [comm] créer un post pour annoncer le nouveau site
+- [] [wordpress] installer un plugin OGP
+- [] [facebook] inline player
+- [x] [abt] modifier le module rsync2 pour accepter un paramètre "rsync.local.path"
+- [x] [gfx] favicon (carré jaune)
 - [x] .gitignore
 - [x] [doc] Déploiement
 - [x] [doc] Rapatriement
