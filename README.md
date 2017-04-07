@@ -61,14 +61,14 @@ ant deploy -Dprofile=pastishosting -Drsync.options=
 
 ## TODO
 
-[] [doc] Import d'une nouvelle émission
-[] [helpers] Mise au carré de wordpress_import_podcasts.sh
-[] [helpers] wordpress_import_podcasts.sh comme package wp-cli ?
-[] [helpers] wordpress_import_podcasts.sh comme extension wordpress ?
-[] [gfx] favicon (carré jaune)
-[] [abt] module wordpress (ant wordpress.pull)
-[x] .gitignore
-[x] [doc] Déploiement
-[x] [doc] Rapatriement
-[x] [dev] rapatrier les CSS additionels dans un child theme
-[x] [gfx] ajouter la phrase "Ce site est développé par, etc"
+- [] [doc] Import d'une nouvelle émission
+- [] [helpers] Mise au carré de wordpress_import_podcasts.sh
+- [] [helpers] wordpress_import_podcasts.sh comme package wp-cli ?
+- [] [helpers] wordpress_import_podcasts.sh comme extension wordpress ?
+- [] [gfx] favicon (carré jaune)
+- [] [abt] module wordpress (ant wordpress.pull)
+- [x] .gitignore
+- [x] [doc] Déploiement
+- [x] [doc] Rapatriement
+- [x] [dev] rapatrier les CSS additionels dans un child theme
+- [x] [gfx] ajouter la phrase "Ce site est développé par, etc"
